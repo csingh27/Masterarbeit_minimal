@@ -24,15 +24,15 @@ matplotlib.use('agg') # prevent memory leaks
 if __name__ == '__main__':
 
     # CONDA ENVIRONMENT : 
-    # /home/chandandeep/anaconda3/envs/rlpyt/lib/python3.8/site-packages/dm_control/suite/
+    # /home/ubuntu/anaconda3/envs/rlpyt/lib/python3.8/site-packages/dm_control/suite/
 
     # PATH TO DMC2GYM :
     # print(inspect.getfile(dmc2gym)) # built in path
 
     # DEFINE PATHS
-    location_minimal = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Minimal/output"
-    location_intermediate = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output"
-    location_full = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Full/output"
+    location_minimal = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Minimal/output"
+    location_intermediate = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output"
+    location_full = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Full/output"
     path_to_output = location_minimal + '/output'
 
     # DEFINE ENVIRONMENTS
@@ -135,7 +135,7 @@ if __name__ == '__main__':
     location_SAC_i_1_2 = location_intermediate + "SAC_i_1_2/"
     location_i_1_2 = location_SAC_i_1_2 + "cloth_sewts_minimal"
 
-    location_SAC_i_1_3 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_1_3/"
+    location_SAC_i_1_3 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_1_3/"
     location_i_1_3 = location_SAC_i_1_3 + "cloth_sewts_minimal"
 
 
@@ -154,7 +154,7 @@ if __name__ == '__main__':
 
     reward_max_i_2_1 = 499
 
-    location_SAC_i_2_1 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_1/"
+    location_SAC_i_2_1 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_1/"
     location_i_2_1 = location_SAC_i_2_1 + "cloth_sewts_minimal"
 
 
@@ -162,52 +162,52 @@ if __name__ == '__main__':
 
     reward_max_i_2_2 = 1499
 
-    location_SAC_i_2_2 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_2/"
+    location_SAC_i_2_2 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_2/"
     location_i_2_2 = location_SAC_i_2_2 + "cloth_sewts_minimal"
 
     reward_max_i_2_3 = 1275
 
-    location_SAC_i_2_3 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_3/"
+    location_SAC_i_2_3 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_3/"
     location_i_2_3 = location_SAC_i_2_3 + "cloth_sewts_minimal"
 
     reward_max_i_2_4 = 1275
 
-    location_SAC_i_2_4 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_4/"
+    location_SAC_i_2_4 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_4/"
     location_i_2_4 = location_SAC_i_2_4 + "cloth_sewts_minimal"
 
     reward_max_i_2_5 = 1275
 
-    location_SAC_i_2_5 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_5/"
+    location_SAC_i_2_5 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_5/"
     location_i_2_5 = location_SAC_i_2_5 + "cloth_sewts_minimal"
 
     reward_max_i_2_6 = 1700
 
-    location_SAC_i_2_6 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_6/"
+    location_SAC_i_2_6 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_6/"
     location_i_2_6 = location_SAC_i_2_6 + "cloth_sewts_minimal"
 
     reward_max_i_2_7 = 1700
 
-    location_SAC_i_2_7 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_7/"
+    location_SAC_i_2_7 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_7/"
     location_i_2_7 = location_SAC_i_2_7 + "cloth_sewts_minimal"
 
     reward_max_i_2_8 = 0.95
 
-    location_SAC_i_2_8 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_8/"
+    location_SAC_i_2_8 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_8/"
     location_i_2_8 = location_SAC_i_2_8 + "cloth_sewts_minimal"
 
     reward_max_i_2_9 = 0.95
 
-    location_SAC_i_2_9 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_9/"
+    location_SAC_i_2_9 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_9/"
     location_i_2_9 = location_SAC_i_2_9 + "cloth_sewts_minimal"
 
     reward_max_i_2_10 = 0.95
 
-    location_SAC_i_2_10 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_10/"
+    location_SAC_i_2_10 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_10/"
     location_i_2_10 = location_SAC_i_2_10 + "cloth_sewts_minimal"
 
     reward_max_i_2_12 = 0.9
 
-    location_SAC_i_2_12 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_12/"
+    location_SAC_i_2_12 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Intermediate/output/SAC_i_2_12/"
     location_i_2_12 = location_SAC_i_2_12 + "cloth_sewts_minimal"
 
     ######### FULL  ######################
@@ -219,10 +219,10 @@ if __name__ == '__main__':
     reward_max_f_0_1 = 499
     reward_max_f_0_2 = 499
 
-    location_SAC_f_0_1 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Full/output/SAC_f_0_1/"
+    location_SAC_f_0_1 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Full/output/SAC_f_0_1/"
     location_f_0_1 = location_SAC_f_0_1 + "cloth_sewts_minimal"
 
-    location_SAC_f_0_2 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Full/output/SAC_f_0_2/"
+    location_SAC_f_0_2 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment_cloth_sewts/Full/output/SAC_f_0_2/"
     location_f_0_2 = location_SAC_f_0_2 + "cloth_sewts_minimal"
 
     # RANDOM INITIALIZATION #
@@ -234,13 +234,13 @@ if __name__ == '__main__':
     reward_max_f_1_2 = 499
     reward_max_f_1_3 = 499
 
-    location_SAC_f_1_1 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment cloth_sewts/Full/output/SAC_f_1_1/"
+    location_SAC_f_1_1 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment cloth_sewts/Full/output/SAC_f_1_1/"
     location_f_1_1 = location_SAC_f_1_1 + "cloth_sewts_minimal"
 
-    location_SAC_f_1_2 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment cloth_sewts/Full/output/SAC_f_1_2/"
+    location_SAC_f_1_2 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment cloth_sewts/Full/output/SAC_f_1_2/"
     location_f_1_2 = location_SAC_f_1_2 + "cloth_sewts_minimal"
 
-    location_SAC_f_1_3 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment cloth_sewts/Full/output/SAC_f_1_3/"
+    location_SAC_f_1_3 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment cloth_sewts/Full/output/SAC_f_1_3/"
     location_f_1_3 = location_SAC_f_1_3 + "cloth_sewts_minimal"
 
     # PREMANIPULATION #
@@ -250,7 +250,7 @@ if __name__ == '__main__':
 
     reward_max_f_2_1 = 499
 
-    location_SAC_f_2_1 = "/home/chandandeep/Masterarbeit/Code/Implementation/Experiment_files/Experiment cloth_sewts/Full/output/SAC_f_2_1/"
+    location_SAC_f_2_1 = "/home/ubuntu/Masterarbeit/Code/Implementation/Experiment_files/Experiment cloth_sewts/Full/output/SAC_f_2_1/"
     location_f_2_1 = location_SAC_f_2_1 + "cloth_sewts_minimal"
 
 
