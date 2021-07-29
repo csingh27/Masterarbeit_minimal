@@ -438,7 +438,7 @@ if __name__ == '__main__':
             os.chdir(location_set_SAC[i])
 
             # TRAIN MODEL
-            model.learn(total_timesteps=1000, reset_num_timesteps = True, callback = stable_baselines_logging.ImageRecorderCallback(), log_interval=1) # log_interval = no. of episodes
+            model.learn(total_timesteps=600000, reset_num_timesteps = True, callback = stable_baselines_logging.ImageRecorderCallback(), log_interval=1) # log_interval = no. of episodes
 
             # EXPERIMENT #
             model.save(location_set[i])
@@ -546,7 +546,7 @@ if __name__ == '__main__':
 
                 print(i)
                 
-                if step == 1 or reward > reward_set[i]: # EXPERIMENT_1 # EXPERIMENT_0
+                if step == 800 or reward > reward_set[i]: # EXPERIMENT_1 # EXPERIMENT_0
                     reward_collect.append(reward)
                     step_collect.append(step)
                     # accuracy_collect.append(accuracy)
